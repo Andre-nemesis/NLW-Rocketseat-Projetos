@@ -34,5 +34,5 @@ class LinksRepository:
             (trip_id,),
         )
 
-        trip = cursor.fetchall()
-        return trip
+        links = cursor.fetchall()
+        return links
